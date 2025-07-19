@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shaiya Revolution</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Cinzel', serif;
+      color: #fff;
+    }
+
+    body {
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ffc107;
+      text-shadow: 2px 2px 8px #000;
+      margin-bottom: 1.5em;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 0.5em 1em;
+      padding: 1em 2em;
+      background: #ffc107;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .buttons a:hover {
+      background: #e0a800;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      position: fixed;
+      bottom: 1em;
+      width: 100%;
+      text-align: center;
+      color: #ccc;
+      font-size: 0.9em;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>Welcome to Shaiya Revolution!</h1>
+  </div>
+  <footer>
+    &copy; 2025 Shaiya Revolution. All rights reserved.
+  </footer>
+</body>
+</html>
